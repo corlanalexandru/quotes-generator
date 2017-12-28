@@ -1,0 +1,13 @@
+{
+  "name": "Quotes Generator",
+  "manifest_version": 2,
+  "description": "Javascript quotes generator for Google Chrome Tab",
+  "version": "0.0.0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
