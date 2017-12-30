@@ -8,8 +8,9 @@ body {
   justify-content: center;
   align-content: center;
   margin: 10vh auto;
-  background-image: url("/images/bg.jpeg");
+  background-image: url('/images/1.jpg');
   background-size: cover;
+  transition: background-image 1.5s ease-in-out;
 }
 
 .quote-box {
@@ -21,7 +22,7 @@ body {
     margin-top: 150px;
 }
 
-.quote-title p{
+.quote-title p {
   margin: auto;
   margin-bottom: 2.5rem;
   color: #CCCCCC;
@@ -43,6 +44,11 @@ body {
     font-family: Oxygen;
     font-weight: bold;
     line-height: 30px;
+
+}
+
+.hidden {
+  display: none;
 }
 
 .js-quote p:nth-child(1):before {
@@ -67,7 +73,7 @@ button#getQuote:hover {
     box-shadow: 0px 0px 0px 0px #0000;
 }
 
-.tip-button {
+.generate-button {
   background-color: #34B3A0;
   outline: none;
   padding: 1rem 1.5rem;
@@ -79,4 +85,9 @@ button#getQuote:hover {
   font-weight: bolder;
   border: none;
   color: white;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
 }
