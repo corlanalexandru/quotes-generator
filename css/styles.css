@@ -11,6 +11,8 @@ body {
   background-image: url('/images/1.jpg');
   background-size: cover;
   transition: background-image 1.5s ease-in-out;
+
+
 }
 
 .quote-box {
@@ -80,7 +82,7 @@ button#getQuote:hover {
   display: inline-block;
   margin: auto;
   font-size: 1rem;
-  margin-top: 2.5rem;
+  margin-top: 40px;
   cursor: pointer;
   font-weight: bolder;
   border: none;
@@ -90,4 +92,16 @@ button#getQuote:hover {
 .col-2 {
     width: 50%;
     float: left;
+}
+
+img.twitter_post {
+    height: 60px;
+    float: right;
+    margin-top: 40px;
+    transition: margin-top 0.5s;
+}
+
+img.twitter_post:hover {
+    margin-top: 30px;
+    cursor: pointer;
 }
